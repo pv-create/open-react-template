@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Немного про меня',
+    paragraph: 'Я студент четвертого курса Сибирского Федерального Университета. Занимаюсь математикой и программированием, в свободное время занимаюсь спортом, например бег или баскетбол.'
   };
 
   return (

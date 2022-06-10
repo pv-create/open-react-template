@@ -1,5 +1,6 @@
 {
   "name": "open-react-template",
+  "homepage": "https://pv-create.github.io/open-react-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,10 +14,11 @@
     "sass": "^1.49.7"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "type": "git"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
